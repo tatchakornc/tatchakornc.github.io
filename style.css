@@ -68,7 +68,6 @@ section {
   margin: auto;
 }
 
-
 header {
   padding-top: 120px;
   padding-bottom: 30px;
@@ -99,8 +98,6 @@ h2 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-
-
 #About p {
   font-size: 1.4rem;
   line-height: 1.8;
@@ -119,8 +116,6 @@ h2 {
   line-height: 1.6;
   font-size: 1.1rem;
 }
-
-
 
 .skill-logo {
   width: 100px;
@@ -179,8 +174,6 @@ h2 {
   font-weight: bold;
 }
 
-
-
 a {
   color: #4a2aad;
   text-decoration: none;
@@ -210,25 +203,24 @@ a {
 
 #Certificate .Certificate-gallery {
   display: flex;
-  flex-wrap: wrap;  /* ให้รูปภาพหักบรรทัดใหม่ได้ */
-  justify-content: space-between;  /* จัดระยะห่างระหว่างรูปภาพ */
-  gap: 20px;  /* ระยะห่างระหว่างรูปภาพ */
+  flex-wrap: wrap;  
+  justify-content: space-between;  
+  gap: 20px;  
 }
 
 .Certificate-item {
-  flex: 1 1 calc(50% - 20px);  /* ทำให้แต่ละรายการใช้พื้นที่ครึ่งหนึ่งของแถว */
-  box-sizing: border-box;  /* ให้แน่ใจว่า padding และ margin จะไม่รวมกับขนาด */
-  text-align: center;  /* จัดข้อความให้ตรงกลาง */
+  flex: 1 1 calc(50% - 20px);  
+  box-sizing: border-box;  
+  text-align: center;  
 }
 
 .Certificate-item img {
-  width: 100%;  /* ให้รูปภาพขยายเต็มความกว้างของ container */
-  max-width: 1000px;  /* กำหนดความกว้างสูงสุดของรูปภาพ */
-  height: auto;  /* ความสูงจะปรับตามสัดส่วน */
-  border-radius: 8px;  /* มุมมน */
-  object-fit: cover;  /* ให้รูปภาพไม่เบี้ยว */
+  width: 100%;  
+  max-width: 1000px;  
+  height: auto;  
+  border-radius: 8px;  
+  object-fit: cover;  
 }
-
 
 .project-image {
   text-align: center;
@@ -251,6 +243,16 @@ a {
     align-items: flex-start;
     padding-right: 1.5rem;
     gap: 0.5rem;
+    width: 100%;
+  }
+
+  nav ul li {
+    width: 100%;
+    text-align: left;
+  }
+
+  nav ul li a {
+    padding: 0.5rem 1rem;
   }
 
   section {
